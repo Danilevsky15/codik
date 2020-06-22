@@ -1,0 +1,25 @@
+ body { background-color:rgb(202, 202, 202);
+    border-width:medium;
+    border:4px solid rgb(201, 76, 67); 
+    padding:10 px 10 px 10 px 10 px;
+    margin-left:25%;
+    margin-right:25%;
+    font-family: sans-serif; 
+    color: cadetblue; 
+    }
+h1,h2 {color: darkgreen;
+   border: darkgrey;
+   border-bottom: 1px solid black;}
+h1 {border-bottom: 1px solid black;}
+p {color: rgb(147, 15, 187);}
+p.juice{color: rgb(197, 23, 96);}
+blockquote{ background-color: cyan;}
+p.asos {background-color: rgb(12, 51, 83);}
+p.vans{color: indigo;}
+p.strung{color: lightgoldenrodyellow;}
+h1{ font-size: 250%;}
+h2{font-size: 150%;}
+
+4px solid rgb(201, 76, 67);
+
+
