@@ -1,54 +1,38 @@
 body { 
-   background-color:rgb(202, 202, 202);
-   border-width:medium;
-   border:4px solid rgb(201, 76, 67); 
-   padding:10 px 10 px 10 px 10 px;
-   margin-left:25%;
-   margin-right:25%;
-   font-family: sans-serif; 
-   color: cadetblue; 
+  background-color: rgb(13, 18, 59);
+  color: rgb(172, 88, 20);
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-size: small;
 }
-
 h1, h2 {
-   color: darkgreen;
-   border: darkgrey;
-   border-bottom: 1px solid black;
+  border-bottom: thin dotted #088808;
+  color: rgb(21, 126, 126);
+  text-decoration: dashed;
 }
-
 h1 {
-   border-bottom: 1px solid black;
+  font-family:     "Emblema One", sans-serif;
+  font-size:  200%;
+}
+h2 {
+  font-size:       130%;
+  font-weight: 300;
+}
+blockquote {
+  font-style: italic;
+  font-size: medium;
 }
 
 p {
-   color: rgb(147, 15, 187);
+  font-weight: bold;
+  font-size: larger;
+  color: rgb(153, 150, 156);
 }
 
-p.juice {
-   color: rgb(197, 23, 96);
+ul, li, ol { 
+  font-size: medium;
 }
 
-blockquote { 
-   background-color: cyan;
+em {
+  font-size: x-large;
+  text-decoration: overline;
 }
-
-p.asos {
-   background-color: rgb(12, 51, 83);
-}
-
-p.vans {
-   color: indigo;
-}
-
-p.strung {
-   color: lightgoldenrodyellow;
-}
-
-h1 { 
-   font-size: 250%;
-}
-
-h2 {
-   font-size: 150%;
-}
-
-/* 4px solid rgb(201, 76, 67); */

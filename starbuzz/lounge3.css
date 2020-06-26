@@ -1,0 +1,238 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 900;
+    font-style: oblique;
+    color: seashell;
+    line-height: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left:300px;
+}
+
+h1.er {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 900;
+    font-style: oblique;
+    color: seashell;
+    line-height: 30px;
+    background-color: rgba(196, 153, 196, 0.384);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left:10px;
+    border-style: groove;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-right: 30px;
+    border-left: 30px;
+    border-bottom-color: rgba(6, 15, 146, 0.329);
+    border-top-color: crimson;
+    border-left-color: crimson;
+    border-right-color:rgba(6, 15, 146, 0.329);
+    border-style: groove;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 300;
+    color: rgb(214, 230, 171);
+    line-height: inherit;
+    border-color: lime;
+    border-width: initial;
+    border-top: medium;  
+    border-top: slateblue ;  
+    border-left: yellowgreen;
+    border-right:  yellow;
+    border-bottom: medium;
+}
+
+blockquote, p.nike {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: rgba(189, 170, 170, 0.705);
+    color:whitesmoke;
+    border-color: rgb(219, 95, 95);
+    border-width: solid;
+    border-top: solid;    
+    border-bottom: solid;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    line-height: 50px;
+    border-left: solid;
+    border-right: solid;
+    padding-left: 60px;
+}
+
+body {
+    background-color: rgb(147, 140, 173);
+    background-image: url(images/space.gif);
+    background-position: middle;
+} 
+
+h2.drr { font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 800;
+    font-style: oblique;
+    color: seashell;
+    line-height: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left:10px;
+
+}
+
+ul.vans, ol.vans, li.vans, p.vans { font-size: medium;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: unset;
+    color: rgb(30, 55, 102);
+    text-decoration: underline ;
+}
+
+blockquote.img {
+    background-image: url(images/death.gif);
+    background-position: top right;
+    background-repeat: no-repeat;
+    padding-left: 140px;
+    margin-right:250px;
+}
+
+br.wind {
+    background-image: url(images/wind.gif);
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+
+p.quarantee {
+    font-size: larger;
+    font-style: italic;
+    font-weight: 400;
+    border-top: double;
+    border-bottom: double;
+    border: lightpink;
+    padding-top: unset;
+    padding-bottom: unset;
+    padding-right: unset;
+    border-style: ridge;
+    padding-left: 150 px;
+    padding-bottom: 40px;
+    padding-top: 40px ;
+}
+
+p.nike {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size:  120%;;
+    line-height: normal;
+    background-color: rgba(6, 15, 146, 0.199);
+    border-top: thin ridge;
+    border-bottom: thin ridge;
+    border-left: thin ridge;
+    border-right: thin ridge;
+    padding-right: 30px;
+}
+
+ h2.five, em.five {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:x-large ;
+    font-weight: 800;
+    font-style: oblique;
+    color: seashell;
+    line-height: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left:50px;
+    border-bottom: double;
+    border-color: darkslateblue ;
+}
+
+p.nike2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size:  120%;;
+    line-height: normal;
+    background-color: rgba(207, 179, 16, 0.199);
+    border-top: ridge;
+    border-bottom: ridge;
+    border-left:ridge;
+    border-right:  ridge;
+    border-color: rgba(73, 69, 69, 0.781);
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left:15px;
+}
+
+p.nike3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size:  120%;;
+    line-height: normal;
+    background-color: rgba(189, 46, 3, 0.281);
+    border-top: ridge;
+    border-bottom: ridge;
+    border-left:ridge;
+    border-right:  ridge;
+    border-color: rgba(73, 69, 69, 0.781);
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left:15px;
+}
+
+p.nike4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size:  120%;;
+    line-height: normal;
+    background-color: rgba(196, 183, 180, 0.281);
+    border-top: ridge;
+    border-bottom: ridge;
+    border-left:ridge;
+    border-right:  ridge;
+    border-color: rgba(73, 69, 69, 0.781);
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left:15px;
+}
+
+p.nike5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size:  120%;;
+    line-height: normal;
+    background-color: rgba(182, 139, 59, 0.281);
+    border-top: ridge;
+    border-bottom: ridge;
+    border-left:ridge;
+    border-right:  ridge;
+    border-color: rgba(73, 69, 69, 0.781);
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left:15px;
+}
+
+h1.er2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-weight: 900;
+    font-style: oblique;
+    color: seashell;
+    line-height: 30px;
+    background-color: rgba(196, 153, 196, 0.384);
+    padding-bottom: 30px;
+    padding-top: 30px;
+    padding-left:10px;
+    border-top: 10px;
+    border-bottom: 10px;
+    border-right: 30px;
+    border-left: 30px;
+    border-bottom-color: lightcoral;
+    border-top-color:lightcoral;
+    border-left-color: rgba(33, 45, 204, 0.377);
+    border-right-color:rgba(33, 45, 204, 0.377);
+    border-style: outset;
+}
