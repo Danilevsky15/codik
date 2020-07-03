@@ -46,23 +46,26 @@ p {
     border-left: yellowgreen;
     border-right:  yellow;
     border-bottom: medium;
-}
+}  
 
-blockquote, p.nike {
+p.nike {
     font-family: Arial, Helvetica, sans-serif;
     font-size: large;
-    background-color: rgba(189, 170, 170, 0.705);
+    text-align: justify;
+    text-decoration: double;
+    font-style: normal;
+    line-height: 30px;
+    background-color: rgba(32, 65, 136, 0.404);
     color:whitesmoke;
-    border-color: rgb(219, 95, 95);
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-color: rgb(169, 95, 219);
     border-width: solid;
-    border-top: solid;    
-    border-bottom: solid;
+    border-style: double;
     padding-top: 50px;
     padding-bottom: 50px;
-    line-height: 50px;
-    border-left: solid;
-    border-right: solid;
-    padding-left: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 body {
@@ -118,19 +121,6 @@ p.quarantee {
     padding-left: 150 px;
     padding-bottom: 40px;
     padding-top: 40px ;
-}
-
-p.nike {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-size:  120%;;
-    line-height: normal;
-    background-color: rgba(6, 15, 146, 0.199);
-    border-top: thin ridge;
-    border-bottom: thin ridge;
-    border-left: thin ridge;
-    border-right: thin ridge;
-    padding-right: 30px;
 }
 
  h2.five, em.five {
@@ -231,10 +221,32 @@ h1.er2 {
     border-right: 30px;
     border-left: 30px;
     border-bottom-color: lightcoral;
-    border-top-color:lightcoral;
+    border-top-color:lightcoral; 
     border-left-color: rgba(33, 45, 204, 0.377);
     border-right-color:rgba(33, 45, 204, 0.377);
     border-style: outset;
 }
 
-/*ssdsdsd*/
+.elixir {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+    text-decoration: double;
+    color: ghostwhite;
+    font-style: italic;
+    width: 300px;
+    line-height: 30px;
+    border-style: double;
+    border-radius: 40px;
+    border-top-color: orange;
+    border-bottom-color: greenyellow;
+    border-left-color: lightseagreen;
+    border-right-color: crimson;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-image: url(images/orig.gif);
+    background-repeat: no-repeat;
+    background-position: top;
+}

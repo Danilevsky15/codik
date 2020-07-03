@@ -1,0 +1,83 @@
+body {
+    background-color: white;
+}
+
+#начало {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: lighter;
+    font-style: italic;
+    color: black;
+    text-align: top left;
+}
+
+#узнатьбольше {
+    border-color: yellowgreen;
+    border-left-style: solid ;
+    border-bottom-style: solid ;
+    border-right-style: solid;
+    border-width: 5px;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+p#узнать {
+    font-size:large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    color: black;
+    line-height: 20px;
+    text-align: left;
+}
+
+p#узнатьпродолжение {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-style: normal;
+    color: black;
+    line-height: 20px;
+    text-align: left;
+}
+
+#описание {
+    font-size: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    color: rgba(0, 0, 139, 0.582);
+    line-height: 20px;
+
+}
+
+#левая {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    line-height: normal;
+    width: 100px;
+    padding-left:30px ;
+    padding-right: 30px;
+    position: absolute;
+    top:210px;
+}
+#текст {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    font-style: normal;
+    line-height: normal;
+    width: 600px;
+    border-color: gray;
+    border-right-style: solid;
+    border-left-style:solid ;
+    position: absolute;
+    left: 170px;
+    top: 210px;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+
+    
+}
+
+img.passe {
+    border-image: 10px;
+}

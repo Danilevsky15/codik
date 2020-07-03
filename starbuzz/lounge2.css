@@ -1,15 +1,6 @@
 body {
-    font-size: medium;
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
-    line-height: 1,6em;
-}
-
-h1, h2 {
-    color: #007e7e;
-}
-
-h1 {
-    font-size: 150%;
+    background-image: url(../starbuzz/images/water.jpg);
+    background-repeat: no-repeat;   
 }
 
 h2 {
@@ -60,4 +51,19 @@ p.quarantee {
     margin-right:250px;
 }
 
-/*ssdsdsd*/
+#начало {
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-align: center;
+    color: rgb(241, 255, 241);
+    background-color: rgba(225, 150, 65, 0.377);
+    border-top: olivedrab;
+    border-left: olivedrab;
+    border-right: rgb(179, 179, 5);
+    border-bottom: rgb(167, 167, 9);
+    background-image: url();
+    border-style: solid;
+    border-radius: 40px;
+    border-width: 10px;
+}
