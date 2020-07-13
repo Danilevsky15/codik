@@ -71,7 +71,6 @@ body {
     padding-left: 15px;
     padding-top:20px ;
     padding-bottom:20px ;
-    background-image: url(../starbuzz/images/Cat.gif);
     background-position: right;
     background-repeat: no-repeat;
 }
@@ -112,4 +111,9 @@ body {
     background-image: url(../starbuzz/images/дерево.gif);
     background-repeat: no-repeat;
     background-position: top left 80px;
+}
+
+#cats {
+    float: right;
+    margin: 0px 20px;
 }

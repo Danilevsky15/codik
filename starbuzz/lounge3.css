@@ -1,252 +1,135 @@
-h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: larger;
-    font-weight: 900;
-    font-style: oblique;
-    color: seashell;
-    line-height: 30px;
-    padding-bottom: 30px;
-    padding-top: 30px;
-    padding-left:300px;
-}
-
-h1.er {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: x-large;
-    font-weight: 900;
-    font-style: oblique;
-    color: seashell;
-    line-height: 30px;
-    background-color: rgba(196, 153, 196, 0.384);
-    padding-bottom: 30px;
-    padding-top: 30px;
-    padding-left:10px;
-    border-style: groove;
-    border-top: 10px;
-    border-bottom: 10px;
-    border-right: 30px;
-    border-left: 30px;
-    border-bottom-color: rgba(6, 15, 146, 0.329);
-    border-top-color: crimson;
-    border-left-color: crimson;
-    border-right-color:rgba(6, 15, 146, 0.329);
-    border-style: groove;
-}
-
-p {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    font-weight: 300;
-    color: rgb(214, 230, 171);
-    line-height: inherit;
-    border-color: lime;
-    border-width: initial;
-    border-top: medium;  
-    border-top: slateblue ;  
-    border-left: yellowgreen;
-    border-right:  yellow;
-    border-bottom: medium;
-}  
-
-p.nike {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    text-align: justify;
-    text-decoration: double;
-    font-style: normal;
-    line-height: 30px;
-    background-color: rgba(32, 65, 136, 0.404);
-    color:whitesmoke;
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-    border-color: rgb(169, 95, 219);
-    border-width: solid;
-    border-style: double;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
 body {
-    background-color: rgb(147, 140, 173);
-    background-image: url(images/space.gif);
-    background-position: middle;
-} 
-
-h2.drr { font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: x-large;
-    font-weight: 800;
-    font-style: oblique;
-    color: seashell;
-    line-height: 15px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    padding-left:10px;
-
-}
-
-ul.vans, ol.vans, li.vans, p.vans { font-size: medium;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-style: unset;
-    color: rgb(30, 55, 102);
-    text-decoration: underline ;
-}
-
-blockquote.img {
-    background-image: url(images/death.gif);
-    background-position: top right;
+    background-image: url();
+    background-position: center;
     background-repeat: no-repeat;
-    padding-left: 140px;
-    margin-right:250px;
 }
 
-br.wind {
-    background-image: url(images/wind.gif);
+#начало {
+    font: Arial, Helvetica, sans-serif normal white;
+    font-style: italic;
+    font-size: large;
+    color:white;
+    background-color: rgba(248, 48, 198, 0.384);
+    border: 7px double  ;
+    border-color:blueviolet;
+    padding: 20px 30px;
+    text-decoration: double;
+}
+
+p#началотекст {
+    font: large;
+}
+
+#середка {
+    font: Arial, Helvetica, sans-serif normal medium;
+    font-style: normal;
+    text-align: center;
+    color: white;
+    background-color: rgba(221, 135, 6, 0.568);
+    border:7px 0px;
+    border-color: coral;
+    border-style: solid;
+    width: 415px;
+    position: absolute;
+    padding: 20px;
+    top:495px;
+    left:8px;
+}
+
+#начинка {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-style: normal;
+    color:white;
+    border-right: solid 7px;
+    border-left: solid 7px;
+    border-bottom: solid 7px;
+    border-color: rgb(255, 115, 0);
+    background-color: rgba(28, 10, 92, 0.781);
+    width: 741px;
+    position: absolute;
+    left: 462px;
+    top:356px;
+    text-align: center;
+    background-image: url(images/orig.gif);
+    background-repeat: no-repeat;
+    background-position: top;
+    padding-top: 100px;
+}
+
+#ссылки {
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    top:356px;
+    border-left: solid 5px grey;
+    background-color: rgba(255, 127, 80, 0.774);
+    width: 450px;
+}
+
+#конецвкаждом {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-style: normal;
+    border:double 7px blue;
+    background-color: rgb(151, 156, 156);
+    position: absolute;
+    top:674px ;
+    text-align: left;
+    padding:0px 30px;
+}
+
+#dr2 {
+    color: rgb(236, 20, 20);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    border:8px solid black;
+    padding: 30px;
+}
+
+#dr1 {
+    background-color: black;
+    background-image: url(images/logo.gif);
     background-position: top left;
     background-repeat: no-repeat;
 }
 
-p.quarantee {
-    font-size: larger;
+#dr {
+    position: absolute;
+    left: 400px;
+    top: 200px;
+}
+
+#dr3 {
+    padding-left: 150px;
+    color: aliceblue;
+}
+
+span.cd {
     font-style: italic;
-    font-weight: 400;
-    border-top: double;
-    border-bottom: double;
-    border: lightpink;
-    padding-top: unset;
-    padding-bottom: unset;
-    padding-right: unset;
-    border-style: ridge;
-    padding-left: 150 px;
-    padding-bottom: 40px;
-    padding-top: 40px ;
 }
 
- h2.five, em.five {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size:x-large ;
-    font-weight: 800;
-    font-style: oblique;
-    color: seashell;
-    line-height: 15px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    padding-left:50px;
-    border-bottom: double;
-    border-color: darkslateblue ;
+span.artist {
+    font-weight: bold;
 }
 
-p.nike2 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-size:  120%;;
-    line-height: normal;
-    background-color: rgba(207, 179, 16, 0.199);
-    border-top: ridge;
-    border-bottom: ridge;
-    border-left:ridge;
-    border-right:  ridge;
-    border-color: rgba(73, 69, 69, 0.781);
-    padding-right: 30px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    padding-left:15px;
+a:link {
+    color: dodgerblue;
 }
 
-p.nike3 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-size:  120%;;
-    line-height: normal;
-    background-color: rgba(189, 46, 3, 0.281);
-    border-top: ridge;
-    border-bottom: ridge;
-    border-left:ridge;
-    border-right:  ridge;
-    border-color: rgba(73, 69, 69, 0.781);
-    padding-right: 30px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    padding-left:15px;
+#elixirs a:visited {
+    color: firebrick;
+    background-color: red;
 }
 
-p.nike4 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-size:  120%;;
-    line-height: normal;
-    background-color: rgba(196, 183, 180, 0.281);
-    border-top: ridge;
-    border-bottom: ridge;
-    border-left:ridge;
-    border-right:  ridge;
-    border-color: rgba(73, 69, 69, 0.781);
-    padding-right: 30px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    padding-left:15px;
+#elixirs a:hover {
+    color: gold;
 }
 
-p.nike5 {
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    font-size:  120%;;
-    line-height: normal;
-    background-color: rgba(182, 139, 59, 0.281);
-    border-top: ridge;
-    border-bottom: ridge;
-    border-left:ridge;
-    border-right:  ridge;
-    border-color: rgba(73, 69, 69, 0.781);
-    padding-right: 30px;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    padding-left:15px;
+#elixirs a:hover {
+    color: indigo;
 }
 
-h1.er2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: x-large;
-    font-weight: 900;
-    font-style: oblique;
-    color: seashell;
-    line-height: 30px;
-    background-color: rgba(196, 153, 196, 0.384);
-    padding-bottom: 30px;
-    padding-top: 30px;
-    padding-left:10px;
-    border-top: 10px;
-    border-bottom: 10px;
-    border-right: 30px;
-    border-left: 30px;
-    border-bottom-color: lightcoral;
-    border-top-color:lightcoral; 
-    border-left-color: rgba(33, 45, 204, 0.377);
-    border-right-color:rgba(33, 45, 204, 0.377);
-    border-style: outset;
-}
-
-.elixir {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: large;
-    text-align: center;
-    text-decoration: double;
-    color: ghostwhite;
-    font-style: italic;
-    width: 300px;
-    line-height: 30px;
-    border-style: double;
-    border-radius: 40px;
-    border-top-color: orange;
-    border-bottom-color: greenyellow;
-    border-left-color: lightseagreen;
-    border-right-color: crimson;
-    padding-top: 100px;
-    padding-bottom: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-image: url(images/orig.gif);
-    background-repeat: no-repeat;
-    background-position: top;
+img {
+    border: 2px solid blue;
 }
