@@ -1,58 +1,63 @@
 body {
     background-color: #b5a789;
-    font-family:      Georgia, "Times New Roman", Times, serif;
-    font-size:        small;
-    margin:           0px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: small;
+    margin: 0px;
     padding: 20px 0px;
-}   
+}
 
 #голова {
     background-color: #675c47;
-	margin: 10px 10px 0px 10px;
-	height:           108px;
+    margin: 10px 10px 0px 10px;
+    height: 108px;
 }
 
 #начинка {
-    display: table-cell;
-    background:       #efe5d0 url(images/background.gif) top left;
-    font-size:        105%;
-    padding:          15px;
+    /*display: table-cell;*/
+    background: #efe5d0 url(images/background.gif) top left;
+    font-size: 105%;
+    padding: 15px;
     vertical-align: top;
-    border: 4px  burlywood solid;
+    border: 4px burlywood solid;
     color: rgb(133, 107, 74);
-
+    height: 500px;
 }
 
 #нижнийколонтитул {
     background-color: #675c47;
-    color:            #efe5d0;
-    text-align:       center;
-    padding:          15px;
-    margin: 0px 10px 10px 10px;
-    font-size:        90%;
+    color: #efe5d0;
+    text-align: center;
+    padding: 15px;
+    margin: 0px 0px 0px 0px;
+    font-size: 90%;
+    position: relative;
 }
 
 #sibebar {
-    display: table-cell;
+    /*display: table-cell;*/
     color: rgb(133, 107, 74);
-    background:       #efe5d0 url(images/background.gif) bottom right;
-    font-size:        105%;
-    padding:          15px;
+    background: #efe5d0 url(images/background.gif) bottom right;
+    font-size: 105%;
+    padding: 15px;
     vertical-align: top;
-    border:4px solid burlywood ;
+    border: 4px solid burlywood;
     float: right;
+    width: 200px;
+    height: 500px;
 }
 
 #хз {
-        text-align: center;
+    text-align: right;
 }
 
 h1 {
-    font-size:        120%;
-    color:            #954b4b;
-  }
-  
-  h2 { font-size: 110%; }
+    font-size: 120%;
+    color: #954b4b;
+}
+
+h2 {
+    font-size: 110%;
+}
 
 #Slogan {
     float: right;
@@ -71,7 +76,7 @@ h1 {
 }
 
 #tablerew {
-    display:table-row;
+    display: table-row;
     border-spacing: 10px;
 }
 
@@ -81,28 +86,28 @@ h1 {
 }
 
 #drinks {
-    display: table-cell;
+    /*display: table-cell;*/
     background-color: #efe5d0;
-    width:300px;
+    width: 200px;
     padding: 15px;
     float: left;
-    vertical-align: top;
+    /*vertical-align: top;*/
     text-align: left;
     color: rgb(133, 107, 74);
     border: 4px solid burlywood;
-    height: 700px;
+    height: 500px;
 }
 
 #wingif {
     position: absolute;
-    top:70px;
+    top: 70px;
     left: 550px;
 }
 
 #ticket {
-    position:fixed;
-    top:300px;
-    left:-90px;
+    position: fixed;
+    top: 300px;
+    left: -90px;
 }
 
 #ticket2 a, img {
