@@ -56,7 +56,7 @@ section {
     border-right: 4px solid rgb(190, 184, 184) ;
     border-left: 4px solid rgb(190, 184, 184) ;
     width: 45%;
-    height: 60%;
+    height: 53%;
     padding-left: 2%;
     padding-right: 3%;
     margin-top: 6px;
@@ -124,7 +124,7 @@ footer {
     position: absolute;
     left:85%;
     top:10%;
-    border: 2px solid rgba(255, 72, 0, 0.24);
+    border: 2px solid rgba(0, 81, 255, 0.24);
 }
 
 #bochka {
@@ -135,8 +135,8 @@ footer {
 #bochka2 {
     float:right;
     position: absolute;
-    left: 71%;
-    top:54%;
+    left: 73%;
+    top:53%;
     border: 3px solid rgba(255, 72, 0, 0.753);
 }
 

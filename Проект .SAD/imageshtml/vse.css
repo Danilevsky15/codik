@@ -1,0 +1,14 @@
+body {
+    padding: 10%;
+    background-image: url(../../starbuzz/images/тигр.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    border: 4px double gray;
+    padding: 3%;
+    position: absolute;
+    left: 27%;
+    top: 5%;
+}
