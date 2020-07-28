@@ -1,0 +1,17 @@
+body {
+    background-color: tan;
+    color: lightcoral;
+    font:x-large Arial, Helvetica, sans-serif;
+    padding: 3%;
+    border: 4px double black;
+}
+
+#hx {
+    background-image: url(../../starbuzz/images/logol.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+#tablecontainer {
+    height: 60%;
+}
