@@ -1,22 +1,88 @@
 <!doctype html>
-<html>
+<html lang="en">
     <head>
         <title>Starbuzz Coffee</title>
-        <meta charset="UTF-8">
-        <link type="text/css" rel="stylesheet" href="form.css">  
+        <link type="text/css" rel="stylesheet" href="form.css">
+        <meta charset="utf-8"> 
     </head>
     <body>
-            <h1>
-                Bean Mashine
-            </h1>
+        <div id="tablecontainer">
+            <h1>Starbuzz Bean Machine</h1>
+            <h2>Заполните следующую форму и нажмите кнопку «Заказать сейчас», чтобы оформить заказ</h2>
+            
+            <!-- Если вы все же хотите
+            ограничить количество символов, которое ваши
+            пользователи могут ввести в элемент input,
+            используйте атрибут maxlength и задайте ему
+            значение, равное определенному количеству
+            символов. Например, maxlength=”100” не позволит пользователям ввести более 100 символов. -->
 
-            <p id="hx">
-                Пока хз
-                <br>
-                <br><br>
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            </p>
+            <form action="http://starbuzzcoffee.com/processorder.php" method="POST">
+                <p>
+                    Выберите кофе: <select name="beans" id="as">
+                                        <option value="Домашняя"> Домашняя смесь </option>
+                                        <option value="Боливия"> Боливия </option>
+                                        <option value="Кения"> Кения </option>
+                                        <option value="Гватемала"> Гватемала </option>
+                                    </select>
+                </p>
 
-        <a href="../loungestar.html" title="Вернуться назад"> Назад </a>
+                <p>
+                    Тип: <input type="radio" name="beantype" checked class="dar" value="Кофе в зернах"> Кофе в зернах
+                         <input type="radio" name="beantype" class="dar" value="Молотый"> Молотый
+                </p>
+
+                <p>
+                    Дополнительные услуги: <input type="checkbox" name="extras[]" class="podar" value="Подарочная упаковка">Подарочная упаковка
+                                           <input type="checkbox" name="extras[]" class="podar" value="Доставка каталога вместе с заказом">Доставка каталога вместе с заказом
+                </p>
+
+                <p>
+                    Доставить по адресу:
+                </p>
+
+                <p>
+                    Имя: <input type="text" name="name">
+                </p>
+
+                <p>
+                    Адрес: <input type="text" name="address">
+                </p>
+
+                <p>
+                    Город: <input type="text" name="city">
+                </p>
+
+                <p>
+                    Страна: <input type="text" name="country">
+                </p>
+
+                <p>
+                    Почтовый индекс: <input type="text" name="zip">
+                </p>
+
+                <p>
+                    Телефон: <input type="tel" name="phone">
+                </p>
+
+                <p>
+                    Комментарии клиентов: <textarea name="asd" id="asd" cols="30" rows="10" maxlength="200">
+
+                                          </textarea>
+                </p>
+
+                <p>
+                    Количество пакетиков: <input type="range" name="dsad" min="3" max="50">
+                </p>
+
+                <p>
+                    Доставить к указанной дате: <input type="date">
+                </p>
+
+                <p>
+                    <input type="submit">
+                </p>
+            </form>
+        </div>
     </body>
 </html>

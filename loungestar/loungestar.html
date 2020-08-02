@@ -6,26 +6,28 @@
         <link type="text/css" rel="stylesheet" href="loungestar.css"/>
     </head>
     <body>
-        <div id="vescontent">
-            <header>
-                <img id="Logo" src="../starbuzz/images/headerLogo.gif" alt="Изображение для верхнего колонтитула кафе Starbuzz"/>
+        <div id="vse">
+            <header class="top">
+                <img id="Logo" src="../starbuzz/images/headerLogo.gif" alt="Изображение для верхнего колонтитула кафе Starbuzz">
                 <img id="Slogan" src="../starbuzz/images/headerSlogan.gif" alt="dsdsdasd ">
             </header>
 
-            <ul>
-                <li> <a class="selected" href="blog/blog.html" title="Блог">Блог</a> </li>
-                <li> <a href="form/form.html" title="Блог"> Дополнения </a> </li>
-                <li> <a href=""> s </a> </li>
-                <li> <a href=""> v</a> </li>
-                <li> <a href=""> a</a> </li>
-            </ul>
+            <nav>
+                <ul>
+                    <li> <a class="selected" href="blog/blog.html" title="Блог">Блог</a> </li>
+                    <li> <a class="selected" href="blog/blog.html" title="Блог"> Дополнения </a> </li>
+                    <li> s </li>
+                    <li> v </li>
+                    <li> a </li>
+                </ul>
+            </nav>
+            
+            <a href="../starbuzz/lounge.html" title="hhhghgjhg"> <img id="ticket" src="../starbuzz/images/ticket.gif" alt="ticket"> </a>
+            <img id="award" src="../starbuzz/images/award.gif" alt="award">
 
-            <img id="wingif" src="../starbuzz/images/award.gif" alt="dsdsd">
-            <a id="ticket" target="_blank" href="../starbuzz/lounge.html"> <img id="ticket2" src="../starbuzz/images/ticket.gif" alt="dsdsdsds"> </a>
-
-            <div id="tablecontainer">
+            <div id="tablecontainer">                
                 <div id="tablerew">
-                    <nav>
+                    <article id="drinks">
                         <h1 class="h1"> НАПИТКИ </h1>
                             <p>Домашняя смесь, $1.49</p>
                             <p>Кофе мокко, $2.35</p>
@@ -39,10 +41,36 @@
                             <p>Клюквенный антиоксидантный взрыв, $2.99</p>
                             <p>Чай «Льдинка», $2.99</p>
                             <p>«Подзарядка для мозга», $2.99</p>
-                    </nav>
+                    </article>
 
                     <section>
-                        <h1>КАЧЕСТВЕННЫЙ КОФЕ, КАЧЕСТВЕННЫЙ КОФЕИН</h1>
+                        <article class="blog">
+                            <header>
+                                <h1>Starbuzz запускает… технологию «Чашка Tweet Sip»</h1>
+                                <time datetime="2012-05-03">5/3/2012</time>
+                            </header>
+                            <p>
+                                Как и было обещано, сегодня я с гордостью объявляю, что кафе Starbuzz
+                                запускает технологию «Чашка Tweet Sip» – это специальная чашка в кафе Starbuzz,
+                                которая генерирует твит каждый раз, когда вы отпиваете из нее глоток!
+                                Подробнее о нашем изобретении вы сможете узнать из моего видео.
+                            </p>
+
+                            <video autoplay controls poster="../starbuzz/images/death.gif" width="511" height="288">
+                                <source src="videos/tweetsip.mp4" title="dasdas"  type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                                <source src="videos/tweetsip.webm" title="asdasd"  type='video/webm; codecs="vp8, vorbis"'>
+                                <source src="videos/tweetsip.ogv" title="sasads" type='video/ogg; codecs="theora, vorbis"'>
+                                <p>
+                                    Извините, ваш браузер не поддерживает элемент "video".
+                                </p>
+                            </video>
+                        </article>
+
+                        <article class="blog">
+                            <header class="sect">
+                                <h1>КАЧЕСТВЕННЫЙ КОФЕ, КАЧЕСТВЕННЫЙ КОФЕИН</h1>
+                                <time datetime="07.28.2020"> 28.07.2020 </time>
+                            </header>
                             <p>
                                 В кафе Starbuzz мы делаем все для того, чтобы удовлетворить вашу потребность в кофеине
                                 посредством качественного кофе и чая. Конечно же, мы бы хотели, чтобы вы всегда заказывали
@@ -59,10 +87,15 @@
                                 Если вы хотите знать самые свежие новости о кофе и других продуктах, содержащих кофеин,
                                 зайдите на этот сайт.
                             </p>
+                        </article>
 
-                        <h1>НАША ИСТОРИЯ</h1>
+                        <article class="blog">
+                            <header class="sect">
+                                <h1>НАША ИСТОРИЯ</h1>
+                                <time datetime="07.28.2020"> 28.07.2020 </time>
+                            </header>
                             <p>
-                                «Человек, план, кофейное зернышко». Ладно, палиндром не получился, зато получилась
+                                <mark> «Человек, план, кофейное зернышко». </mark> Ладно, палиндром не получился, зато получилась
                                 чертовски хорошая чашка кофе. Генеральный директор Starbuzz — как раз тот самый человек,
                                 и вы уже знаете, каков его план: Starbuzz на каждом углу.
                             </p>
@@ -74,8 +107,13 @@
                                 Starbuzz, которое очень быстро растет и помогает удовлетворять потребность в кофеине
                                 абсолютно новой группы клиентов.
                             </p>
+                        </article>
 
-                        <h1>НАПИТКИ КАФЕ STARBUZZ</h1>
+                        <article>
+                            <header class="sect">
+                                <h1>НАПИТКИ КАФЕ STARBUZZ</h1>
+                                <time datetime="07.28.2020"> 28.07.2020 </time>
+                            </header>
                             <p>
                                 Кафе Starbuzz предлагает большой выбор кофеиносодержащих напитков, включая наши:
                                 <a href="../starbuzz/beverages/elixir.html#green" title="Домашняя смесь">домашняя смесь</a>,
@@ -91,6 +129,7 @@
                                 используя специальную форму <a href="form/form.html" title="The Bean Machine">
                                 Bean Machine</a>, и наслаждаться напитками кафе Starbuzz прямо у себя дома.
                             </p>
+                        </article>
                     </section>
 
                     <aside>
@@ -125,3 +164,4 @@
         </div>
     </body>
 </html>
+

@@ -1,0 +1,90 @@
+body {
+    background-image: url();
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: blanchedalmond;
+    font-family:  sans-serif ;
+}
+
+#tablecontainer {
+    border: 4px double black;
+    padding: 1% 0% 0% 4%;
+    width: 64%;
+    margin:0% 0% 0% 15%;
+}
+
+table {
+    border: 1px thin solid black;
+    margin: 0% 10% 0% 10%;
+    caption-side: bottom;
+    font-size: large;
+    border-collapse: collapse;
+}
+
+h1 {
+    color: slateblue;
+}
+
+li {
+    list-style:url(images/backpack.gif);
+    margin-left: 1%;
+    padding-top:5px;
+}
+
+td, th {
+    padding: 5px;
+    background-color: rgba(224, 155, 64, 0.822);
+    border: thin solid rgb(15, 12, 12);
+    color: wheat;
+}
+
+th {
+    background-color: orangered;
+}
+
+caption {
+    font-style: italic;
+    padding-top: 8px;
+}
+
+.date {
+    text-align: center;
+}
+
+.mon {
+    text-align: right;
+}
+
+.clor {
+    background-color: rgba(231, 99, 52);
+}
+
+.name {
+    color: rgb(247, 244, 238);
+    background-color: orangered;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#color {
+    background-color: rgb(140, 89, 207);
+}
+
+#color2 {
+    background-color: rgba(70, 131, 180, 0.719);
+}
+
+#igg {
+    border: 6px double rgb(214, 74, 8);
+}
+
+#igg2 {
+    border: 6px double rgb(39, 8, 214);
+}
+
+.one {
+    color: rgb(214, 74, 8);
+}
+
+.two{
+    color: rgb(51, 23, 206);
+}

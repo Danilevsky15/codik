@@ -3,53 +3,147 @@
     <head>
         <meta charset="utf-8">
         <title>Путешествие Тони!</title>
-        <link type="text/css" rel="stylesheet" href="../starbuzz/lounge3.css" />
+        <link type="text/css" rel="stylesheet" href="journal.css" />
     </head>
     <body>
-        <h1 class="h1">Дневник моих поездок на моем скутере по <em> <strong> территории США! </strong> </em> </h1>
-            <br>
-        <h2 class="vans">20 августа, 2012</h2>
-            <img src="images/segway2.jpg">
-            <p>
-                Итак, я уже проехал 1200 миль и побывал в некоторых интересных местах:
-                <ol>
-                    <li class="vans">Вала-Вала, штат Вашингтон,</li> <li class="vans">Мэджик-Сити, штат Айдахо,</li>
-                    <li class="vans">Баунтифул, штат Юта,</li> <li class="vans"> Лэст Чанс штат Колорадо, Уай, штат Аризона,</li>
-                    <li class="vans">Трут-ор-Консекуэнсес, штат Нью-Мексико.</li>
-                </ol>
-            </p>
-        
-        <h2>14 июля, 2012</h2>
-            <p>
-                Я видел парочку знаков в стиле<em><strong> Burma Shave</strong></em> на обочине дороги:
-            </p>
-            <blockquote class="img">  Если вы не заметите <br class="wind">проезжающие мимо машины, <br>то они могут сбить вас.<br> Одно мгновение —<br> и бесконечность…<br></blockquote>
-            <p> 
-                Я определенно не хотел, чтобы на меня наехала машина!
-            </p>
-        
-        <h2>2 июня, 2012</h2>
-            <img src="images/segway1.jpg">
-                <p>Первый день моего путешествия!<br> Я не верю, что наконец смог отложить все дела в сторону и отправиться в путешествие. <br> Поскольку
-                я собирался ехать на скутере, то не мог взять с собой много вещей:
-                    <ul>
-                        <li class="vans">Только сотовый телефон,</li>
-                        <li class="vans">iPod,</li> 
-                        <li class="vans">Цифровую камеру и шоколадный батончики
-                            <ol class="vans">
-                                <li class="vans"> <a target="_blank" href="Mars/Mars.html">Mars</a></li>
-                                <li class="vans"> <a target="_blank" href="Twix/Twix.html">Twix</a></li>
-                                <li class="vans"> Snickers </li>
-                            </ol>
-                        </li>
-                    </ul>
-                </p>
-                
-                <p>
-                    Только все самое необходимое. 
-                </p>
+        <div id="tablecontainer">
+            <h1>Дневник моих поездок на моем скутере по <em> <strong> территории США! </strong> </em> </h1>
                 <br>
 
-                <p> Как сказал бы<a target="_blank" href="http://ru.wikipedia.org/wiki/Лао-цзы"> Лао Цзы</a>:<q>Путешествие в тысячу миль начинается с одного шага к скутеру.</q></p>
+            <h2 class="one">20 августа, 2012</h2>
+                <img id="igg" src="images/segway2.jpg">
+
+                <p class="one">
+                    Итак, я уже проехал 1200 миль и побывал в некоторых
+                    интересных местах:
+                </p>
+                    <table>
+                        <caption>
+                            Города, которые я посетил во время путешествия на скутере по США 
+                    </caption> 
+                        <tr>
+                            <th>City</th>
+                            <th>Date</th>
+                            <th>Temperature</th>
+                            <th>Altitude</th>
+                            <th>Population</th>
+                            <th>Diner Rating</th>
+                        </tr>
+
+                        <tr>
+                            <td>Walla Walla, WA</td>
+                            <td class="date">June 15th</td>
+                            <td class="date">75</td>
+                            <td class="mon">1,204 ft</td>
+                            <td class="mon">29,686</td>
+                            <td class="date">4/5</td>
+                        </tr>
+
+                        <tr class="clor">
+                            <td>Magic City, ID</td>
+                            <td class="date">June 25th</td>
+                            <td class="date">74</td>
+                            <td class="mon">5,312 ft</td>
+                            <td class="mon">50</td>
+                            <td class="date">3/5</td>
+                        </tr>
+                        
+                        <tr>
+                            <td>Bountiful, UT</td>
+                            <td class="date">July 10th</td>
+                            <td class="date">91</td>
+                            <td class="mon">4,226 ft</td>
+                            <td class="mon">41,173</td>
+                            <td class="date">4/5</td>
+                        </tr>
+                        
+                        <tr class="clor">
+                            <td>Last Chance, CO</td>
+                            <td class="date">July 23rd</td>
+                            <td class="date">102</td>
+                            <td class="mon">4,780 ft</td>
+                        <td class="mon">265</td>
+                        <td class="date">3/5</td>
+                        </tr>
+
+                        <tr>
+                            <td rowspan="2">Truth or Consequences, NM</td>
+                            <td class="date">August 9th</td>
+                            <td class="date">93</td>
+                            <td rowspan="2" class="mon">4,242 ft</td>
+                            <td rowspan="2" class="mon">7,289</td>
+                            <td class="date">5/5</td>
+                        </tr>
+
+                        <tr>
+                            <td class="date">27 августа</td>
+                            <td class="date">98</td>
+                            <td class="date"> 
+                                <table>
+                                    <tr>
+                                        <td class="name">Тесс</td>
+                                        <td id="color">5/5</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td class="name">Тони</td>
+                                        <td id="color2">4/5</td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+
+                        <tr class="clor">
+                            <td>Why, AZ</td>
+                            <td class="date">August 18th</td>
+                            <td class="date">104</td>
+                            <td class="mon">860 ft</td>
+                            <td class="mon">480</td>
+                            <td class="date">3/5</td>
+                        </tr>
+                    </table>
+            
+                <h2 class="one">14 июля, 2012</h2>
+                    <p class="one">
+                        Я видел парочку знаков в стиле<em><strong> Burma Shave</strong></em> на обочине дороги:
+                    </p>
+                    <blockquote class="one">
+                        Если вы не заметите <br> проезжающие мимо машины,<br>то они могут сбить вас.<br> Одно мгновение —<br> и бесконечность…<br>
+                    </blockquote>
+                    <p class="one"> 
+                        Я определенно не хотел, чтобы на меня наехала машина!
+                    </p>
+                
+                <h2 class="two">2 июня, 2012</h2>
+                    <img id="igg2" src="images/segway1.jpg">
+                    <p>
+                        <p class="two"> 
+                            Первый день моего путешествия!
+                        </p>
+
+                        <p class="two">
+                            Я не верю, что наконец смог отложить все дела в сторону и отправиться в путешествие. <br> Поскольку
+                            я собирался ехать на скутере, то не мог взять с собой много вещей: 
+                        </p>
+                    
+                        <p class="two"> 
+                            Первый день моего путешествия! <br> Я не верю, что наконец смог отложить все дела в сторону и отправиться в путешествие. Поскольку я собирался ехать на скутере, то не мог взять с собой много вещей: только
+                            <ul>
+                                <li>сотовый телефон</li>
+                                <li>iPod</li>
+                                <li>цифровую камеру</li>
+                                <li>и шоколадный батончик</li>
+                            </ul>
+                            <br>
+                        </p>
+
+                        <p class="two">
+                            Только все самое необходимое. Как сказал бы<a target="_blank" href="http://ru.wikipedia.org/wiki/Лао-цзы"> Лао Цзы</a>: 
+                                <q>
+                                    Путешествие в тысячу миль начинается с одного шага к скутеру.
+                                </q>
+                        </p>
+                    </p>
+        </div>
     </body>
 </html>

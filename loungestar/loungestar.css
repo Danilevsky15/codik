@@ -2,79 +2,95 @@ body {
     background-color: #b5a789;
     font-family: Georgia, "Times New Roman", Times, serif;
     font-size: small;
-    padding:2% 4% 0% 4%;
-    height: 80%;
+    padding-top:1% ;
+    padding-right: 4%;
+    padding-bottom:  0%; 
 }
 
-#vescontent {
-    width: 100%;
-    background-color: #675c47;
-    border: 4px solid #5e5037;
+#vse {
+    border: 1px solid rgba(220, 220, 220, 0);
+    margin-left: 3%;
 }
 
 #tablecontainer {
     display: table;
-    margin-top: 12%;
+    border-spacing: 7px;
+    width: 100%;
 }
 
 #tablerew {
     display: table-row;
-    border-spacing: 20px;
-    margin-top: 5%;
 }
 
-header {
+header.top {
     background-color: #675c47;
-    margin: 10px 10px 0px 10px;
+    height: 108px;
+    border: 4px solid rgba(220, 220, 220, 0);
+    margin-left: 7px;
+    margin-right: 7px;
 }
 
-ul {
-    background-color: #efe5d0;
-    margin: 10px 10px 0px 10px;
-    list-style-type: none;
-    ma
+a.selected:link {
+    border: 3px solid #b76666;
+    padding: 3px;
 }
 
-ul li {
-    display: inline;
-    padding: 5px 10px 5px 10px;
-   }
-
-ul li a:link, ul li a:visited {
-    color: #954b4b;
-    border-bottom: none;
-    font-weight: bold;
+a.selected:hover {
+    color:#b76666;
+    text-decoration: none;
+    border: 1px solid #b76666;
 }
 
-ul li.selected {
-    background-color: #c8b99c;
-}
-
-nav, section, aside {
-    background:#efe5d0;
-    display: table-cell;
-    border: 4px solid burlywood;
-    color: rgb(133, 107, 74);
-    height: 60%;
-    padding: 3%;
-    vertical-align: top;
+a.selected:active {
+    border: 3px solid #df350a;
+    background-color: #f1670ae5;
 }
 
 nav {
-    text-align: top left;
-    width: 15%;
+    background-color: #efe5d0;
+    margin: 7px 7px 0px 7px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+nav ul li a:link, nav ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
 }
 
-section, section#blog {
+nav ul li.selected {
+	background-color: #c8b99c;
+}
+
+article#drinks, section, aside {
+    background-color:#efe5d0;
+    display: table-cell;
+    color: rgb(133, 107, 74);
+    padding: 7px;
+    vertical-align: top;
+}
+
+article#drinks {
+    width: 12%;
+}
+
+section {
     font-size: 105%;
     background-image: url(../starbuzz/images/background3.gif);
     background-repeat: no-repeat;
     background-position: top;
-    width: 57%;
 }
 
 aside {
     text-align: center;
+    width: 23%;
 }
 
 footer {
@@ -82,8 +98,9 @@ footer {
     color: #ece4d3;
     text-align: center;
     font-size: 90%;
-    margin: 2%;
-    border: 4px solid rgba(220, 220, 220, 0);
+    padding: 1%;
+    margin-left: 6px;
+    margin-right: 7px;
 }
 
 #hth {
@@ -111,16 +128,16 @@ h2 {
     float: left;
 }
 
-#wingif {
+#award {
     position: absolute;
-    top: 19%;
-    left:65%;
+    top: 11%;
+    left:71%;
 }
 
 #ticket {
     position: fixed;
-    top: 37%;
-    left: -7%;
+    top: 30%;
+    left: -4%;
 }
 
 #dom {
@@ -128,3 +145,5 @@ h2 {
     text-decoration: dotted;
     line-height: 2%;
 }
+
+
